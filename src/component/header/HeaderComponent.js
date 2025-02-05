@@ -1,18 +1,19 @@
 import React from "react";
+import styles from './HeaderComponent.module.css';  // Import file CSS module
 
-const Header = () => {
+const HeaderComponent = () => {
     return (
-        <header className="bg-primary text-white py-3 px-4 d-flex justify-content-between align-items-center">
-            <h1 className="h4 fw-bold">My Website</h1>
+        <header className={styles.header}>
+            <img src="/images.png" alt="Logo" />
             <nav>
-                <ul className="nav">
-                    <li className="nav-item"><a href="#" className="nav-link text-white">Home</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link text-white">About</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link text-white">Contact</a></li>
+                <ul className={styles.nav}>
+                    <li className={styles.navItem}><a href="#" className={styles.navLink}>Home</a></li>
+                    <li className={styles.navItem}><a href="#" className={styles.navLink}>About</a></li>
+                    <li className={styles.navItem}><a href="#" className={styles.navLink}>Contact</a></li>
                 </ul>
             </nav>
         </header>
     );
 };
 
-export default Header;
+export default HeaderComponent;

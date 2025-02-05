@@ -73,3 +73,21 @@
     font-size: 14px;
     color: #777;
 }
+
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.navItem span {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navItem span:hover {
+    color: #ddd;
+}

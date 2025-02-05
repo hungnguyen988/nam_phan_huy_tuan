@@ -1,0 +1,13 @@
+.image-container {
+    width: 100vw; /* Toàn bộ chiều rộng màn hình */
+    height: calc(100vh - 500px); /* Chiều cao của màn hình trừ đi 200px */
+    overflow: hidden; /* Ẩn phần ảnh vượt quá khung */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh để lấp đầy mà không méo */
+    display: block;
+}
+

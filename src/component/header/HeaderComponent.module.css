@@ -1,0 +1,41 @@
+/* HeaderComponent.module.css */
+
+.header {
+    background-color: white; /* Màu nền primary */
+    color: white;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center; /* Căn giữa tất cả các phần tử trong header */
+    align-items: center;
+    height: 100px;
+}
+
+.header img {
+    width: auto;
+    height: 80px; /* Tùy chỉnh kích thước ảnh */
+    position: absolute;
+    left: 10%; /* Đặt ảnh logo ở bên trái một chút */
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Căn giữa các mục trong nav */
+    gap: 40px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Màu hover cho liên kết */
+}
