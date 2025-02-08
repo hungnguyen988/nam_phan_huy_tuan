@@ -19,7 +19,7 @@
     "cra-template": "1.2.0",
     "emoji-picker-react": "^4.12.0",
     "firebase": "^11.1.0",
-    "flickity": "^3.0.0",
+    "flickity": "^2.2.1",
     "formik": "^2.4.6",
     "lodash": "^4.17.21",
     "moment": "^2.30.1",
@@ -46,11 +46,14 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.6.1"
   },
+  "homepage": "https://hungnguyen988.github.io//nam_phan_huy_tuan",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -69,5 +72,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
