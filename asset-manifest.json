@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hungnguyen988/nam_phan_huy_tuan/static/css/main.500f19c0.css",
-    "main.js": "/hungnguyen988/nam_phan_huy_tuan/static/js/main.9fe642cb.js",
+    "main.js": "/hungnguyen988/nam_phan_huy_tuan/static/js/main.fb7a7907.js",
     "static/js/453.8e51f3fd.chunk.js": "/hungnguyen988/nam_phan_huy_tuan/static/js/453.8e51f3fd.chunk.js",
     "index.html": "/hungnguyen988/nam_phan_huy_tuan/index.html",
     "main.500f19c0.css.map": "/hungnguyen988/nam_phan_huy_tuan/static/css/main.500f19c0.css.map",
-    "main.9fe642cb.js.map": "/hungnguyen988/nam_phan_huy_tuan/static/js/main.9fe642cb.js.map",
+    "main.fb7a7907.js.map": "/hungnguyen988/nam_phan_huy_tuan/static/js/main.fb7a7907.js.map",
     "453.8e51f3fd.chunk.js.map": "/hungnguyen988/nam_phan_huy_tuan/static/js/453.8e51f3fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.500f19c0.css",
-    "static/js/main.9fe642cb.js"
+    "static/js/main.fb7a7907.js"
   ]
 }
