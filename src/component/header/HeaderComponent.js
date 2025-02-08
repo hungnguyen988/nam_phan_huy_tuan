@@ -1,15 +1,22 @@
 import React from "react";
-import styles from './HeaderComponent.module.css';  // Import file CSS module
+import { Link } from "react-router-dom";  // Import Link từ react-router-dom
+import styles from "./HeaderComponent.module.css";
 
 const HeaderComponent = () => {
     return (
         <header className={styles.header}>
-            <img src="/images.png" alt="Logo" />
+            <img src="/logo.png" alt="Logo" />
             <nav>
                 <ul className={styles.nav}>
-                    <li className={styles.navItem}><a href="#" className={styles.navLink}>Home</a></li>
-                    <li className={styles.navItem}><a href="#" className={styles.navLink}>About</a></li>
-                    <li className={styles.navItem}><a href="#" className={styles.navLink}>Contact</a></li>
+                    <li className={styles.navItem}>
+                        <Link to="/" className={styles.navLink}>TRANG CHỦ</Link>
+                    </li>
+                    <li className={styles.navItem}>
+                        <Link to="/products" className={styles.navLink}>SẢN PHẨM</Link>
+                    </li>
+                    <li className={styles.navItem}>
+                        <Link to="/introduce" className={styles.navLink}>GIỚI THIỆU</Link>
+                    </li>
                 </ul>
             </nav>
         </header>

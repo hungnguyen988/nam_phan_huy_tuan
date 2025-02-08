@@ -1,21 +1,23 @@
 import './App.css';
-import HeaderComponent from "./component/header/HeaderComponent";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import FooterComponent from "./component/footer/FooterComponent";
-import ImageTopic from "./component/topic/ImageTopic";
-import MainProduct from "./component/main_product/MainProduct";
+import {Route, Routes} from "react-router-dom";
+import IntroductionPage from "./component/introduce/IntroductionPage";
+import Layout from "./component/layout/Layout";
+import HomePage from "./component/home/homepage/Homepage";
+import ProductPage from "./component/products/productPage/ProductPage";
 
 
 function App() {
-    return (
-        <div className="App">
-            <HeaderComponent/>
-            <ImageTopic/>
-            <MainProduct/>
-            <FooterComponent/>
 
-        </div>
+    return (
+        <Routes>
+            <Route path="/" element={<Layout />}>
+                <Route index element={<HomePage />} />  {/* Trang chủ */}
+                <Route path="/introduce" element={<IntroductionPage />} />
+                <Route path="/products/*" element={<ProductPage />} />
+            </Route>
+        </Routes>
     );
 }
 
