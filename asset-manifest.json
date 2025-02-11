@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nam_phan_huy_tuan/static/css/main.500f19c0.css",
-    "main.js": "/nam_phan_huy_tuan/static/js/main.04de1548.js",
+    "main.css": "/nam_phan_huy_tuan/static/css/main.14f14f14.css",
+    "main.js": "/nam_phan_huy_tuan/static/js/main.201f55f7.js",
     "static/js/453.8e51f3fd.chunk.js": "/nam_phan_huy_tuan/static/js/453.8e51f3fd.chunk.js",
     "index.html": "/nam_phan_huy_tuan/index.html",
-    "main.500f19c0.css.map": "/nam_phan_huy_tuan/static/css/main.500f19c0.css.map",
-    "main.04de1548.js.map": "/nam_phan_huy_tuan/static/js/main.04de1548.js.map",
+    "main.14f14f14.css.map": "/nam_phan_huy_tuan/static/css/main.14f14f14.css.map",
+    "main.201f55f7.js.map": "/nam_phan_huy_tuan/static/js/main.201f55f7.js.map",
     "453.8e51f3fd.chunk.js.map": "/nam_phan_huy_tuan/static/js/453.8e51f3fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.500f19c0.css",
-    "static/js/main.04de1548.js"
+    "static/css/main.14f14f14.css",
+    "static/js/main.201f55f7.js"
   ]
 }
